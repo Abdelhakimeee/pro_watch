@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*header*/
+.navbar {
+    background-color: #0077b6 ;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0px;
+    color:#fff;
+    border-top:3px solid white ;
+    border-left: 3px solid white;
+    /*margin-bottom: 0px   # if you need it */ 
+}
+.info_navbar { 
+    font-style:italic;
+    font-size: larger;
+    
+}
+/*main*/
+/*home*/
+.home {
+    background: url(imgs/bg_home.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    border-left: 3px solid white;
+    align-content: center;
+    color: #0d374d;
+    padding-left: 100px;
+    font-size: 20px;
+    font-style:oblique;
+    margin-bottom: 0px;
+}
+.info_home {
+    width: 400px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.button_home a { 
+    text-decoration: none;
+    
+}
+.button_home {
+    margin: 20px 0 0px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.8s ease;
+}
+.button_home:hover {
+    background-color: #0077b6;
+    color: #fff;
+    transform: scale(1.4)    
+}
+
+.main_logos {
+    margin-top:0px  ;
+    margin-bottom: 80px;
+    display:flex;
+    text-align: auto;
+    justify-content: space-around;
+    border-bottom: rgb(232, 232, 232) solid;
+}
+.main_logos img {
+    width: 100px;
+}
+.store_men{
+    background: url(imgs/stor_men.jpg) no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 20px;
+
+} 
+.store_ladies {
+    background: url(imgs/stor_ladies.jpg) no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.store_kids {
+    background: url(imgs/stor_kids.jpg) no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+.store_sale {
+    background: url(imgs/stor_sale.jpg) no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+#store {
+    display: flex ;
+    justify-content: space-around; 
+    
+}
+#store div h3 {
+    
+    padding-top: 100px;
+    padding-left: 10px;
+
+}
+#store {
+    color: white;
+    font-size: 20px;
+
+}
+.store_sale{
+    color: rgb(185, 8, 8);
+}
+#store button {
+    border-radius: 20%;
+    padding: 10px;
+    margin-left: 10px;
+    color: red;
+    transition: 0.7s ease;
+    
+
+}
+
+#store button:hover {
+    color: white;
+    transform: scale(1.1);
+    background-color: red;
+}
+
+.footer{
+    
+    /* background: url(imgs/bg_footer.jpg) no-repeat;
+    background-size: cover; */
+    background: linear-gradient(to top, #0077b6, white);
+    padding: 30px;
+
+    margin-top: 70px;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+
+.social_media_logos img {
+    
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* macke the code respence withe all screense 600 400 300 using @media  */
